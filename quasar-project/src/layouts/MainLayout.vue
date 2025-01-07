@@ -2,25 +2,29 @@
   <div class="">
     <NavbarMain />
     <div class="column">
-      <div class="col-lg-6 col-12 justify-center items-center q-pa-md">
+      <div class="col-lg-4 col-12 justify-center items-center q-pa-md">
         <q-img
           class="main-img"
           src="/public/main-assets-landing.png"
           fit="contain"
         />
-        <h1 class="text-white text-h3 vertical-middle">
+        <h1 class="text-white text-h3 vertical-middle raleway-bold">
           All your files in one secure location,<br />
           accessible anywhere.
         </h1>
-        <p class="text-white">
+        <p class="text-white text-body1">
           Fylo stores all your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <q-btn class="get-started text-uppercase" color="info" label="Get Started" />
+        <q-btn
+          class="get-started text-capitalize q-pa-sm"
+          color=""
+          label="Get Started"
+        />
       </div>
     </div>
-     <IconMain />
+    <IconMain />
   </div>
 </template>
 
@@ -51,5 +55,6 @@ div {
 .get-started {
   border-radius: 1.3rem;
   width: 200px;
+  background: linear-gradient(90deg, #63e1d9 0%, #34a0cd 100%);
 }
 </style>
