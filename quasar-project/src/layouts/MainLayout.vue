@@ -1,19 +1,17 @@
 <template>
   <div class="">
     <NavbarMain />
-    <div class="column">
-      <div class="col-lg-4 col-12 justify-center items-center q-pa-md">
-        <q-img
-          class="main-img"
-          src="/public/main-assets-landing.png"
-          fit="contain"
-        />
-        <h1 class="text-white text-h3 vertical-middle raleway-bold">
+    <div class="q-pa-lg">
+      <div class="col-lg-5 col-12 justify-center items-center q-pa-lg">
+        <q-img class="main-img" src="/public/main-assets-landing.png" />
+        <h3 class="text-white text-h4 vertical-middle raleway-bold">
           All your files in one secure location,<br />
           accessible anywhere.
-        </h1>
-        <p class="text-white text-body1">
+        </h3>
+        <p class="text-white text-body1 q-mb-none">
           Fylo stores all your most important files in one secure location.
+        </p>
+        <p class="text-white text-body1">
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
@@ -25,6 +23,7 @@
       </div>
     </div>
     <IconMain />
+    <CardMain />
   </div>
 </template>
 
@@ -32,10 +31,12 @@
 import { ref } from "vue";
 import NavbarMain from "src/components/NavbarMain.vue";
 import IconMain from "src/components/IconMain.vue";
+import CardMain from "src/components/CardMain.vue";
 
 defineOptions({
   name: "NavbarMain",
   name: "IconMain",
+  name: "CardMain",
 });
 
 const leftDrawerOpen = ref(false);
@@ -50,7 +51,7 @@ div {
   background-color: var(--q-primary);
 }
 .main-img {
-  width: 400px;
+  width: 40%;
 }
 .get-started {
   border-radius: 1.3rem;

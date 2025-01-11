@@ -11,9 +11,9 @@
             />
           </div>
           <div class="">
-            <h1 class="text-white text-h4 vertical-middle text-center raleway-bold">
+            <h3 class="text-white text-h5 vertical-middle text-center raleway-bold q-mb-sm">
               Access your files, anywhere
-            </h1>
+            </h3>
             <p class="text-white text-center text-body1">
               The ability to use a smartphone, tablet, or computer to access
               your account means your files follow you everywhere.
@@ -29,9 +29,9 @@
             />
           </div>
           <div>
-            <h1 class="text-white text-h4 vertical-middle text-center raleway-bold">
+            <h3 class="text-white text-h5 vertical-middle text-center raleway-bold q-mb-sm">
               Security you can trust.
-            </h1>
+            </h3>
             <p class="text-white text-center text-body1">
               Fylo stores all your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends
@@ -48,9 +48,9 @@
             />
           </div>
           <div>
-            <h1 class="text-white text-h4 vertical-middle text-center raleway-bold">
+            <h3 class="text-white text-h5 vertical-middle text-center raleway-bold q-mb-sm">
               Real-time collaboration
-            </h1>
+            </h3>
             <p class="text-white text-center text-body1">
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required.
@@ -66,9 +66,9 @@
             />
           </div>
           <div>
-            <h1 class="text-white text-h4 raleway-bold vertical-middle text-center">
+            <h3 class="text-white text-h5 raleway-bold vertical-middle text-center q-mb-sm">
               Store any type of file
-            </h1>
+            </h3>
             <p class="text-white text-center text-body1">
               Whether you're sharing holidays photos or work documents, Fylo has
               you covered allowing for all file types to be securely stored and
