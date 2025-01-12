@@ -64,4 +64,7 @@ div {
   width: 200px;
   background: linear-gradient(90deg, #63e1d9 0%, #34a0cd 100%);
 }
+@media (max-width: 768px) {
+  
+}
 </style>
