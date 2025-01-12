@@ -72,7 +72,7 @@
               <div class="row q-mt-lg">
                 <div class="col-lg-7 col-12">
                   <q-input
-                    class="custom-input "
+                    class="custom-input"
                     outlined
                     rounded
                     v-model="email"
@@ -155,28 +155,7 @@ p {
   padding: 20px;
   border-radius: 8px;
 }
-.custom-input .q-field {
-  background-color: white !important; /* Set the input background color */
-  border: 1px solid #ccc !important; /* Add a border for visibility */
-  border-radius: 8px; /* Make it rounded */
-  color: black; /* Ensure text color is readable */
-}
 
-/* Target the control area where text is entered */
-.custom-input .q-field__control {
-  background-color: transparent !important; /* Prevent nested backgrounds */
-  color: black !important; /* Ensure text is black */
-}
 
-/* Target the placeholder for styling */
-.custom-input .q-placeholder {
-  color: #888 !important; /* Light gray placeholder color */
-}
-
-/* Handle focus state for input */
-.custom-input .q-field--focused {
-  border-color: #007bff !important; /* Blue border on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
-}
 
 </style>
