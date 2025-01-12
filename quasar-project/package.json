@@ -5,12 +5,16 @@
   "productName": "fylo-dark-theme-landing-page",
   "author": "Mariya Harizanova <mharizanova@yahoo.com>",
   "private": true,
+  "homepage": "https://mharizanova8703.github.io/fylo-dark-theme-landing-page",
+
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -19,14 +23,15 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.0.0",
-    "vite-plugin-checker": "^0.7.1",
-    "eslint-config-prettier": "^8.1.0",
-    "prettier": "^2.5.1",
     "@quasar/app-vite": "^1.9.0",
     "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "vite-plugin-checker": "^0.7.1"
   },
   "engines": {
     "node": "^20 || ^18 || ^16",
