@@ -3,7 +3,7 @@
     <q-layout view="lHh lpr lFf" container style="height: 100px"  class="q-pa-lg">
       <q-header elevated>
         <q-toolbar>
-          <img class="q-pa-lg" src="/public/logo.png" />
+          <img class="q-pa-md logo" src="/public/logo.png" />
           <q-toolbar-title></q-toolbar-title>
           <q-btn flat  label="Features" />
           <q-btn flat label="Team" />
@@ -41,3 +41,13 @@ const props = defineProps({
   },
 });
 </script>
+<style scoped>
+.logo{
+  width: 150px;
+}
+@media (max-width: 768px) {
+  .logo{
+    width: 100px;
+  }
+}
+</style>

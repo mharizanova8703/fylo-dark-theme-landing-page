@@ -1,13 +1,13 @@
 <template>
   <div>
-    <q-layout class="q-pa-lg">
+    <q-layout class="q-pa-lg section">
       <div class="row q-col-gutter-md items-center justify-center">
         <div class="col-12 col-md-6 col-lg-6">
           <div class="q-mx-auto">
             <q-img class="main-img" src="/public/main-landing.png" fit="contain" />
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 flex flex-column items-start justify-start">
+        <div class="col-12 col-md-6 col-lg-4 flex  items-start justify-start">
           <div>
             <h3 class="text-white text-h5 raleway-bold vertical-start text-start q-mb-sm">
               Stay productive, wherever you are
@@ -39,6 +39,9 @@ div {
 }
 .main-img {
   width: 100%;
+}
+.section{
+  min-height: 100%!important;
 }
 .get-started {
   border-radius: 1.3rem;

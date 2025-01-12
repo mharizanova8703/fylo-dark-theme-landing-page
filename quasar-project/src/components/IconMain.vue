@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-layout class="q-pa-lg">
+    <q-layout class="q-pa-lg section">
       <div class="row q-col-gutter-md items-center justify-center">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="q-mx-auto">
@@ -92,5 +92,8 @@ div {
 .get-started {
   border-radius: 1.3rem;
   width: 200px;
+}
+.section{
+  min-height: 100%!important;
 }
 </style>

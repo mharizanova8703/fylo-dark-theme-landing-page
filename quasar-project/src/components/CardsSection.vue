@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-layout class="q-pa-lg">
+    <q-layout class="q-pa-lg section">
       <div class="row q-col-gutter-md items-center justify-center">
         <div class="col-12 col-md-3 col-lg-3">
           <q-card class="my-card">
@@ -134,6 +134,9 @@ img {
 }
 h3 {
   color: white;
+}
+.section{
+    min-height: 100%!important;
 }
 .get-started {
   border-radius: 1.3rem;
