@@ -25,6 +25,7 @@
     <IconMain />
     <CardMain />
     <CardsSection />
+    <FooterSection />
   </div>
 </template>
 
@@ -34,12 +35,14 @@ import NavbarMain from "src/components/NavbarMain.vue";
 import IconMain from "src/components/IconMain.vue";
 import CardMain from "src/components/CardMain.vue";
 import CardsSection from "src/components/CardsSection.vue";
+import FooterSection from "src/components/FooterSection.vue";
 
 defineOptions({
   name: "NavbarMain",
   name: "IconMain",
   name: "CardMain",
-    name: "CardsSection",
+  name: "CardsSection",
+  name: "FooterSection",
 });
 
 const leftDrawerOpen = ref(false);

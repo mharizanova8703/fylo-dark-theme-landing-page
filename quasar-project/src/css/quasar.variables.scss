@@ -23,10 +23,16 @@ $positive: #21ba45;
 $negative: #c10015;
 $info: #8adae3;
 $warning: #f2c037;
+$white:white;
 
 .info {
   background-color: $info;
 }
+
+.bg-white {
+  background-color: $white;
+}
+
 body {
   p {
     font-family: "Open Sans", serif;
