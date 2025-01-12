@@ -33,6 +33,10 @@ $white:white;
   background-color: $white;
 }
 
+.q-field__control {
+  background-color: white !important;
+}
+
 body {
   p {
     font-family: "Open Sans", serif;
